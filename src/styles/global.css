@@ -1,0 +1,30 @@
+* {
+  -webkit-touch-callout: none; /* Disable long-press context menu for all elements */
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #d65050;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.landing-page-nav:after {
+  background-color: #fff !important;
+}
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.lc_text-widget {
+  z-index: 3 !important;
+}
