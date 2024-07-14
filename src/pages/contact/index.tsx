@@ -35,7 +35,7 @@ const ContactPage = () => {
         <Box display={"flex"} gap={10} alignItems={"center"} color={"white"}>
           <FaWhatsapp size={50} />
           <Text fontWeight={"semibold"} fontSize={18}>
-            +919571652927
+            +919571652927 / +918104412573
           </Text>
         </Box>
         <Box display={"flex"} gap={10} alignItems={"center"} color={"white"}>
