@@ -35,19 +35,19 @@ const ContactPage = () => {
         <Box display={"flex"} gap={10} alignItems={"center"} color={"white"}>
           <FaWhatsapp size={50} />
           <Text fontWeight={"semibold"} fontSize={18}>
-            9814662320
+            +919571652927
           </Text>
         </Box>
         <Box display={"flex"} gap={10} alignItems={"center"} color={"white"}>
           <SiGmail size={50} />
           <Text fontWeight={"semibold"} fontSize={18}>
-            xyz@samudramanthanenterprise.in
+            samundramanthan24@gmail.com
           </Text>
         </Box>
         <Box display={"flex"} gap={10} alignItems={"center"} color={"white"}>
           <IoCall size={50} />
           <Text fontWeight={"semibold"} fontSize={18}>
-            9814662320
+            +919372037840
           </Text>
         </Box>
       </Box>
